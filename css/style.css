@@ -1,0 +1,157 @@
+@charset="UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{}
+
+/*Main code start*/
+.wrapper-full{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*Header code start*/
+.header-full{
+    background-color: lightgreen;
+}
+.header{
+    height: 40px;
+    line-height: 40px;
+}
+.header p{
+    float: left;
+    padding-right: 697px;
+}
+.header ul{
+    overflow: hidden;
+}
+.header ul li{
+    float: left;
+}
+.header ul li a{
+    color: green;
+}
+.header ul li a:hover{
+    color: red;
+}
+
+/*navbar code start*/
+.navbar-full{
+    background-color: lightskyblue;
+}
+.navbar{
+    height: 60px;
+    line-height: 60px;
+}
+
+
+.navbar > ul{
+    overflow: hidden;
+}
+.navbar > ul > li{
+    float: left;
+    margin-right: 5px;
+}
+.navbar > ul > li > a{
+    color: black;
+    display: block;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+}
+.navbar > ul > li > a:hover{
+    color: white;
+    background-color: red;
+}
+
+/*Dropdown menu*/
+.navbar > ul > li > ul{
+    position: absolute;
+    display: none;
+}
+.navbar > ul > li:hover > ul{
+    display: block;
+    background-color: lightskyblue;
+}
+.navbar > ul > li > ul > li{}
+.navbar > ul > li > ul > li > a{
+    display: block;
+    padding: 3px 100px 3px 30px;
+    line-height: 40px;
+    border-bottom: 2px solid lightblue;
+    transition: all linear 0.3s;
+}
+.navbar > ul > li > ul > li > a:hover{
+    color: white;
+    background-color: red;
+}
+.navbar > ul > li > ul > li:first-child > a{
+    border-top: 2px solid red;
+}
+.navbar > ul > li > ul > li:last-child > a{
+    border-bottom: 0px;
+}
+
+/*Banner code start*/
+.banner-full{
+    background-image: url(../images/image%206.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.banner{
+    width: auto;
+    height: 310px;
+}
+
+/*Content code srart*/
+.content-full{}
+.content{
+    padding: 20px 0px;
+}
+.content h2{
+    text-transform: uppercase;
+    color: darkblue;
+    border-bottom: 2px solid lightskyblue;
+}
+.content p{
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.content .position{
+    text-align: center;
+}
+.content .position img{
+    opacity: 0.5;
+}
+.content .position img:hover{
+    opacity: 1.0;
+}
+
+/*Footer code start*/
+.footer-full{
+    background-color: lightgreen;
+}
+.footer{
+     height: 60px;
+    line-height: 60px;
+}
+.footer p{
+    float: left;
+}
+.footer .right{
+    padding-left: 853px;
+}
